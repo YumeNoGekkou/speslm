@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="t25" fetch="https://github.com/TelegramAt25" />
+  <remote name="LOS" fetch="https://github.com/LineageOS" />
+
+  <!-- /* device specific */ -->
+
+  <!-- device -->
+  <project path="device/xiaomi/spes" name="android_device_xiaomi_spes.git" remote="t25" revision="miku-tda" />
+
+  <!-- vendor -->
+  <project path="vendor/xiaomi/spes" name="android_vendor_xiaomi_spes.git" remote="t25" revision="13.0" />
+
+  <!-- kernel -->
+  <project path="kernel/xiaomi/spes" name="android_kernel_xiaomi_spes.git" remote="t25" revision="spes-r-oss" />
+
+  <!-- /* common ximi */ -->
+
+  <!-- hardware -->
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi.git" remote="LOS" revision="lineage-20" clone-depth="1" />
+
+</manifest>
