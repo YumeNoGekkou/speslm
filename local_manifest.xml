@@ -13,7 +13,7 @@
   <project path="vendor/xiaomi/spes" name="android_vendor_xiaomi_spes.git" remote="t25" revision="13.0" />
 
   <!-- kernel -->
-  <project path="kernel/xiaomi/spes" name="android_kernel_xiaomi_spes.git" remote="t25" revision="spes-r-oss" />
+  <project path="kernel/xiaomi/sm6225" name="android_kernel_xiaomi_spes.git" remote="t25" revision="spes-r-oss" />
 
   <!-- /* common ximi */ -->
 
