@@ -20,6 +20,11 @@
   <!-- hardware -->
   <project path="hardware/xiaomi" name="android_hardware_xiaomi.git" remote="t25" revision="lineage-20" />
 
+  <!-- /* common qcom */ -->
+
+  <!-- fm-commonsys -->
+  <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys.git" remote="LOS" revision="lineage-20.0" />
+
   <!-- /* memeparts */ -->
 
   <!-- lineage res -->
