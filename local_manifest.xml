@@ -3,6 +3,7 @@
 
   <remote name="t25" fetch="https://github.com/TelegramAt25" />
   <remote name="LOS" fetch="https://github.com/LineageOS" />
+  <remote name="Mi680" fetch="https://github.com/mi-sdm680" />
 
   <!-- /* device specific */ -->
 
@@ -13,7 +14,7 @@
   <project path="vendor/xiaomi/spes" name="android_vendor_xiaomi_spes.git" remote="t25" revision="13.0" />
 
   <!-- kernel -->
-  <project path="kernel/xiaomi/sm6225" name="android_kernel_xiaomi_sm6225.git" remote="t25" revision="spes-r-oss" />
+  <project path="kernel/xiaomi/sm6225" name="android_kernel_xiaomi_sm6225.git" remote="Mi680" revision="spes-r-oss" />
 
   <!-- /* common ximi */ -->
 
